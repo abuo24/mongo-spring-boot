@@ -26,7 +26,7 @@ public class Users {
     private int age;
     private int course;
 //    @Transient - static
-//    @DBRef()
+    @DBRef
     @JsonIgnore
     private Group group;
 }
